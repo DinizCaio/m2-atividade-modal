@@ -41,48 +41,48 @@
         </form>
         <dialog class="modalController">
           <div class="modalContainer">
-            <form method="dialog">
-              <div class="formContainer">
-                <div class="modal__form__nome">
-                  <input
-                    type="text"
-                    name="modal__name"
-                    id="modal__name"
-                    class="modal__input__name"
-                    placeholder="Nome"
-                  />
-                </div>
-                <div class="modal__form__sobrenome">
-                  <input
-                    type="text"
-                    name="modal__lastname"
-                    id="modal__lastname"
-                    class="modal__input_lastname"
-                    placeholder="Sobrenome"
-                  />
-                </div>
-                <div class="modal__form_email">
-                  <input
-                    type="email"
-                    name="modal__email"
-                    id="modal__email"
-                    class="modal__input__email"
-                    placeholder="E-mail"
-                  />
-                </div>
-                <div class="modal__form__newPassword">
-                  <input
-                    type="password"
-                    name="modal__password"
-                    id="modal__password"
-                    class="modal__input__password"
-                    placeholder="Nova senha"
-                  />
-                </div>
-                <div class="modal__form__button">
-                  <button class="modal__close">Fechar</button>
-                  <button type="submit">Cadastrar</button>
-                </div>
+            <form id="formModal" method="dialog">
+              <div class="modal__form__nome">
+                <input
+                  type="text"
+                  name="modal__name"
+                  id="modal__name"
+                  class="modalInput"
+                  placeholder="Nome"
+                />
+              </div>
+              <div class="modal__form__sobrenome">
+                <input
+                  type="text"
+                  name="modal__lastname"
+                  id="modal__lastname"
+                  class="modalInput"
+                  placeholder="Sobrenome"
+                />
+              </div>
+              <div class="modal__form_email">
+                <input
+                  type="email"
+                  name="modal__email"
+                  id="modal__email"
+                  class="modalInput"
+                  placeholder="E-mail"
+                />
+              </div>
+              <div class="modal__form__newPassword">
+                <input
+                  type="password"
+                  name="modal__password"
+                  id="modal__password"
+                  class="modalInput"
+                  placeholder="Nova senha"
+                />
+              </div>
+              <div class="modalButtons">
+                <button class="modalButtonClose">Fechar Modal</button>
+                <button class="modalButtonSubmit" type="submit">
+                  Cadastrar
+                </button>
               </div>
             </form>
           </div>

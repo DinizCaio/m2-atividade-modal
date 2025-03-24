@@ -9,8 +9,8 @@ function handleModal() {
 }
 handleModal();
 function closeModal() {
+  const closeButton = document.querySelector(".modalButtonClose");
   const modalContainer = document.querySelector(".modalController");
-  const closeButton = document.querySelector(".modal__close");
   closeButton.addEventListener("click", () => {
     modalContainer.close();
   });
