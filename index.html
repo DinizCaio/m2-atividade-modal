@@ -34,49 +34,55 @@
           <a href="#" target="_blank" class="form__forgot-pass"
             >Esqueceu a senha?</a
           >
-          <a href="#" target="_blank" class="form__register-link">
+          <a href="#" target="" class="form__register-link">
             Ainda não tem conta? Cadastre-se aqui!
           </a>
           <button class="form__login-btn">Entrar</button>
         </form>
-        <dialog>
+        <dialog class="modalController">
           <div class="modalContainer">
-            <form action="submit">
-              <div class="modal__form__nome">
-                <input
-                  type="text"
-                  name="modal__name"
-                  id="modal__name"
-                  class="modal__form__name"
-                  placeholder="Nome"
-                />
-              </div>
-              <div class="modal__form__sobrenome">
-                <input
-                  type="text"
-                  name="modal__lastname"
-                  id="modal__lastname"
-                  class="modal__form_lastname"
-                  placeholder="Sobrenome"
-                />
-              </div>
-              <div class="modal__form_email">
-                <input
-                  type="email"
-                  name="modal__email"
-                  id="modal__email"
-                  class="modal__form__email"
-                  placeholder="E-mail"
-                />
-              </div>
-              <div class="modal__form__newPassword">
-                <input
-                  type="password"
-                  name="modal__password"
-                  id="modal__password"
-                  class="modal__form__password"
-                  placeholder="Nova senha"
-                />
+            <form method="dialog">
+              <div class="formContainer">
+                <div class="modal__form__nome">
+                  <input
+                    type="text"
+                    name="modal__name"
+                    id="modal__name"
+                    class="modal__input__name"
+                    placeholder="Nome"
+                  />
+                </div>
+                <div class="modal__form__sobrenome">
+                  <input
+                    type="text"
+                    name="modal__lastname"
+                    id="modal__lastname"
+                    class="modal__input_lastname"
+                    placeholder="Sobrenome"
+                  />
+                </div>
+                <div class="modal__form_email">
+                  <input
+                    type="email"
+                    name="modal__email"
+                    id="modal__email"
+                    class="modal__input__email"
+                    placeholder="E-mail"
+                  />
+                </div>
+                <div class="modal__form__newPassword">
+                  <input
+                    type="password"
+                    name="modal__password"
+                    id="modal__password"
+                    class="modal__input__password"
+                    placeholder="Nova senha"
+                  />
+                </div>
+                <div class="modal__form__button">
+                  <button class="modal__close">Fechar</button>
+                  <button type="submit">Cadastrar</button>
+                </div>
               </div>
             </form>
           </div>
